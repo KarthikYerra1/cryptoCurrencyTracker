@@ -1,0 +1,16 @@
+.cc-tracker-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cc-tracker-container {
+    padding: 30px;
+  }
+}
